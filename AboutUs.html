@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - MindfulHaven</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@468&family=Reddit+Mono:wght@200..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #4f5a61;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+#Logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    flex: 1; /* Pushes the logo to the left */
+}
+
+.navbar a {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    padding: 15px 70px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar .nav-links {
+    display: flex;
+    margin-right: 10%;
+    gap: 10px; /* Adds spacing between the links */
+}
+
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 5%;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 5%;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div id="Logo">MindfulHaven</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="TalkToSomeone.html">Talk to Someone</a>
+    <a href="AboutUs.html">About us</a>
+  </div>
+</div>
+
+<div class="about-container">
+  <div class="content">
+    <h2>About Us</h2>
+    
+      <Span>Welcome to </Span><span>MindfulHaven</span>, a sanctuary designed to support individuals who are struggling with mental health challenges. Our mission is to provide resources, guidance, and a sense of community to those in need. We understand that mental health is a critical aspect of overall well-being, and our goal is to make help accessible to everyone.
+    
+    <p>
+      Whether you're looking for practical tips to improve your mental health, want to connect with a professional, or simply need a supportive environment to share your experiences, MindfulHaven is here for you. Our team of dedicated professionals and mental health advocates work tirelessly to create content and resources that are both informative and uplifting.
+    </p>
+    <p>
+      Remember, you are not alone in this journey. Together, we can overcome the challenges and embrace a healthier, happier life.
+    </p>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>For study purposes only</p>
+</footer>
+
+</body>
+</html>
